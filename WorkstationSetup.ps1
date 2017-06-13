@@ -3,12 +3,12 @@
 #Map DSRC and Developer_tools to drives for this PS admin session if not already mapped
 if(!(Test-Path("Z:")))
 {
-net use Z: \\DSRC.dgo.dcc.ccn\TOSE
+net use Z: \\ZZZ
 "TOSE Mapped to drive Z:"
 }
 if(!(Test-Path("W:")))
 {
-net use W: \\DSHFS01.dgo.dcc.ccn\developer_tools
+net use W: \\WWW
 "Developer Tools Mapped to drive W:"
 }
 
@@ -62,7 +62,7 @@ if(!(test-path($InstallDir)))
 
 #MS.NET 3.5
 cd "MSNET"
-if(!(dir).count -gt 1){"MS.NET 3.5 must be enabled before Habitat installation, please do that now"; pause}
+if(!(dir).count -gt 1){"MS.NET 3.5 must be enabled before XXX installation, please do that now"; pause}
 
 #Perl 5.20
 try
