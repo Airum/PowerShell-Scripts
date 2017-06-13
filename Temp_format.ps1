@@ -1,4 +1,7 @@
-﻿function Join-Object{ 
+﻿#This script creates the input for substations to be added to the dynamic temperature app.
+ #Input the segment list and the line limits csv
+ 
+ function Join-Object{ 
  [CmdletBinding()]
     Param
     (
