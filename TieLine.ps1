@@ -1,4 +1,6 @@
-﻿Param
+﻿#This script compares two sets of tie line data and outputs those that are only found in one of them
+ 
+ Param
     (
         [Parameter(Mandatory=$true)] 
         [string] $WorkingDirectory,
