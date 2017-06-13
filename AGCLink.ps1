@@ -1,4 +1,7 @@
-﻿Param
+#Given a directory, this script finds the two AGC output files that are active, then compares their values
+#This output is redirected  to an Excel file, and a VBA macro is activated to present it nicely to an auditor
+
+Param
     (
         [Parameter(Mandatory=$true)] 
         [string] $WorkingDirectory
